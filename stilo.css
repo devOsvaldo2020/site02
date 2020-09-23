@@ -4,19 +4,24 @@
 						padding: nome;
 						margin-top: nome;
 					}
-					body{
-			            color: red;
-			            background-color:#000000;
-			        }
+					
 
 					header{
 						background-color: #00f;						
-						background-image: -webkit-linear-gradient(#00c, #002);
+						background-image: -webkit-linear-gradient(#002, #00c, #002);
 						min-height: 140px;
 						text-shadow: 1px 1px 2px #fff;
 						color: #000000;						
 						border-color: #111;
 					}
+
+					body{
+						background-image: url(imagem4.png);
+						background-image: -webkit-linear-gradient(#003, #666, #003);
+						color: #ffffff;
+			           			            
+			        }
+					
 					
 					#distancia_logo{
 						padding: 35px;						
@@ -27,7 +32,7 @@
 					}
 
 					#menu{
-						padding: 35px ;
+						padding: 30px ;
 						text-align: right;
 						
 						background-color: #00f;						
@@ -35,6 +40,15 @@
 
 						color: #333333;
 						float:right;						
+					}
+					p{
+						padding: 0px 20px;
+					}
+					h2{
+						text-align: center;
+					}
+					h4{
+						padding: 0px 40px;
 					}
 
 					menu a:hover{
@@ -44,13 +58,16 @@
 						
 					}
 					div{
-						background-color: #fff;
-						text-shadow: 1px 1px 2px #6600ff;						
+						background-color: #000000;
+						background-image: -webkit-linear-gradient(#002, #665);												
+						color: #ffffff hsl (240, 100%, 80%);
+						padding: 1%;												
+						text-shadow: 1px 1px 2px #b3b3ff;						
 						
 					}
 					footer {
 						background-color: #fff;						
-						background-image: -webkit-linear-gradient(#f0f, #0f0);
+						background-image: -webkit-linear-gradient(#f0f, #0f0, #909);
 						clear: both;						
 						color: black;
 						height: 50px;
@@ -66,9 +83,9 @@
 					#div_esquerda{	
 						background-color: #fff;
 						background-image: url(imagem3.png);
-						background-image: -webkit-linear-gradient(#000, #666);
+						background-image: -webkit-linear-gradient(#000, #006, #000);
 						min-height: 480px;
-						width: 69%;						
+						width: 68%;						
 						color: #ffffff;
 						padding: 1%;
 						float:left;
@@ -79,8 +96,11 @@
 						background-image: url(imagem4.png);
 						min-height: 50px;
 						color: #000000;
-						width: 29%;
+						width: 20%;
 						float:right;
+					}
+					#margem{
+						padding: 0px 15%;
 					}
 					
 					
